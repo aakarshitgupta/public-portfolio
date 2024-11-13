@@ -1,0 +1,106 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    min-height: 100%;
+    overflow-y: auto;
+}
+.main{
+    min-height: 150vh;
+    overflow-y: auto;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.briefcase{
+    margin: auto;
+    margin-top: 5%  ;
+    margin-bottom: 5%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    padding: 1%;
+    width: 10rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.808);
+}
+.icon{
+    margin-right: 2%;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 40%;
+    height: 23rem;
+    /* background-color: grey; */
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.01));
+    margin: 7px;
+    border-radius: 10PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.box1{
+    flex-grow: 2;
+}
+.name{
+    font-size: 1.5rem;
+    margin: 15px;
+}
+.langs{
+    display: flex;
+    justify-content: space-evenly;
+}
+.lang{
+    margin: 0px 10px;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.03);
+    padding: 2px 7px;
+}
+.portfolio{
+    width: 95%;
+    height: 16rem;
+    background-image: url("/assets/portfolio.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10PX;
+    margin: 10px 10px 0px 10px;
+}
+
+.spotify{
+    width: 95%;
+    height: 12rem;
+    background-image: url("/assets/spotify.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10PX;
+    margin: 10px 10px 0px 10px;
+    
+}
+.game{
+    width: 95%;
+    height: 12rem;
+    background-image: url("/assets/game.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10PX;
+    margin: 10px;
+}
+.shopping{
+    width: 95%;
+    height: 15rem;
+    background-image: url("/assets/shopping.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10PX;
+    margin: 10px;
+}
+.hover{
+    background-color: #28E98C;
+    color: black;
+    transition: background-color 0.3s ease;
+}

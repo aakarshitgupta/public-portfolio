@@ -1,0 +1,106 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    min-height: 100%;
+    overflow-y: auto;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    width: 100vw;
+    /* height: 100vh; */
+    margin: auto;
+}
+.icon{
+    margin: auto;
+    margin-top: 3%  ;
+    /* margin-left: 1%; */
+    margin-bottom: 2%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    padding: 1%;
+    width: 10rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.808);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    width: 80vw;
+    height: 60vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background: linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.01)); */
+}
+.boxes{
+    height: 6rem;
+    width:28%;
+    margin: 10px;
+    border-radius: 10px;
+    /* background-color: grey;   */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+img{
+    height: 4rem;
+    margin: 8px 0px 0px 0px;
+}
+.css{
+    margin-left: -15px;
+}
+.bar{
+    height: 3px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 0px;
+}
+.seventy{
+    position: absolute;
+    width: 10rem;
+    height: 3px;
+    background-color: white;
+    z-index: 2;
+}
+.five{
+    position: absolute;
+    width: 12rem;
+    height: 3px;
+    background-color: white;
+    z-index: 2;
+}
+.ninety{
+    position: absolute;
+    width: 16rem;
+    height: 3px;
+    background-color: white;
+    z-index: 2;
+}
+.eighty{
+    position: absolute;
+    width: 14rem;
+    height: 3px;
+    background-color: white;
+    z-index: 2;
+}
+.eight{
+    position: absolute;
+    width: 15rem;
+    height: 3px;
+    background-color: white;
+    z-index: 2;
+}
+.boxes:hover{
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.068);
+}

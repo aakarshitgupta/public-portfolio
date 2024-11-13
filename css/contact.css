@@ -1,0 +1,134 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    min-height: 100%;
+    overflow-y: auto;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.main{
+    min-height: 150vh;
+    overflow-y: auto;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.location{
+    margin: auto;
+    margin-top: 5%  ;
+    margin-bottom: 2%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    padding: 1%;
+    width: 10rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.808);
+}
+.icon{
+    margin-right: 3%;
+}
+.touch{
+    font-size: 2.5rem;
+    margin: 0px 0px 5% 0px;
+}
+.map{
+    width: 100%;
+    height: 500px;
+    background-color: grey ;
+    margin: 2% 0%;
+}
+.form{
+    display: flex;
+}
+.lt{
+    width: 41%;
+    height: 25rem;
+    /* background-color: grey; */
+    margin: 5% 5% 5% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.rt{
+    width: 54%;
+    height: 25rem;
+    margin: 5% 0% 5% 0%;
+
+}
+.box{
+    width: 100%;
+    height: 7rem;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.01));
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box:hover{
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.068);
+}
+.icons{
+    margin:5%;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+.text{
+    margin: 5%;
+}
+.large{
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #28E98C;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.names{
+    width: 17rem;
+    height: 3.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: transparent;
+    margin-top: 5%;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.25rem;
+}
+input::placeholder {
+    font-size: 1.25rem;
+    padding: 2rem;
+}
+textarea{
+    height: 12rem;
+    width: 36.05rem;
+    resize: both;
+    margin: 3% 0% 3% 0%;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1.5rem;
+}
+textarea::placeholder{
+    font-size: 1.25rem;
+    padding: 1rem 1.25rem;
+}
+button{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 36.4rem;
+    height: 4rem;
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    padding: 0px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #28E98C;
+    transition: 0.4s ease-in;
+}
